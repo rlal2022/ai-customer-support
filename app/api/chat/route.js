@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import OpenAI from "openai";
 
 const systemPrompt = `You are CuratorBot, an AI assistant for CuratorSpace, a thriving community of software engineers and tech professionals. Your role is to provide helpful, clear, and accurate responses to user inquiries. You should assist with questions related to:
 
